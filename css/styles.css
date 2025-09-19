@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: "Playfair Display", serif;
+}
+button{
+    border-radius: 5px;
+    height: 40px;
+    padding-top: 10px;
+    width: 150px;
+    padding-bottom: 20px;
+    border: 1px solid #ffffff;
+    color: white;
+    background: #d80eeb;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+    text-transform: uppercase;
+    box-shadow: 5px 5px #ffffff9d;
+
+}
+section#home{
+    height: 100vh;
+    background: #d80eeb;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+padding-left: 50px;
+padding-right: 50px;
+}
+section#home header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+section#home header div h1{
+    color:white;
+    font-family: "Cookie", cursive;
+
+}  
+section#home header nav ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+section#home header nav ul li {
+    list-style: none;
+}
+section#home header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+section#home #content{
+    display: flex;
+    color: #ffffff;
+}
+section#home #content div{
+flex:1;
+}
+
+section#home #content h2{
+font-size: 4rem;
+color:#ffffff;
+margin-top: 20px;
+}

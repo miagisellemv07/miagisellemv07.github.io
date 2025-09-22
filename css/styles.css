@@ -3,7 +3,6 @@
     padding: 0px;
 }
 body{
-    
     font-family: "Playfair Display", serif;
 }
 button{
@@ -63,3 +62,61 @@ font-size: 4rem;
 color:#ffffff;
 margin-top: 20px;
 }
+
+section#home #content #botones{
+    padding-top:20px;
+    gap: 20px;
+    display: flex;
+ }
+
+p{
+    padding-top:20px;
+}
+section#home #content #imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen img{
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+section#home  #imagen2{
+    align-items: center;
+    display:flex;
+}
+section#home #imagen2 img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+section#home2{
+    display: flex;
+    height: 100vh;
+    background: #d80eeb;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.cuatro{
+    display: flex;
+    background: #ffffff60;
+    height: 40px;
+    padding-top: 10px;
+    width: 350px;
+    gap: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+    padding-left: 25px;
+}
+.cuatro p{
+    display: flex;
+    align-items: center;
+    display:flex;
+}
+

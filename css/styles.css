@@ -77,10 +77,12 @@ section#home #content #imagen{
     justify-content: center;
     align-items: center;
 }
+
 .imagen img{
     border-radius: 100%;
     width: 500px;
     height: 500px;
+    
 }
 section#home  #imagen2{
     align-items: center;
@@ -103,20 +105,44 @@ section#home2{
     align-items: center;
     gap: 200px;
 }
+#botones{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .cuatro{
     display: flex;
     background: #ffffff60;
     height: 40px;
-    padding-top: 10px;
-    width: 350px;
+    margin-top: 10px;
+    width: 200px;
     gap: 30px;
     border: 1px solid #ffffff;
-    border-radius: 10%;
+    border-radius: 50px;
     padding-left: 25px;
 }
-.cuatro p{
+.cuatro h4{
     display: flex;
+    justify-content: center;
     align-items: center;
-    display:flex;
 }
+section#home2 div div button {
+    margin-top: 30px;
+}
+section#home3{
+    height: 100vh;
+    background: #d80eeb;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   
+}
+section#home3 div{
+    display: FLEX;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2PX;
+}
+
+
 

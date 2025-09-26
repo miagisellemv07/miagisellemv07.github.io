@@ -1,6 +1,8 @@
 *{
     margin:0px;
     padding: 0px;
+
+  box-sizing: border-box;
 }
 body{
     font-family: "Playfair Display", serif;
@@ -18,6 +20,11 @@ button{
     text-transform: uppercase;
     box-shadow: 5px 5px #ffffff9d;
 
+}
+
+section {
+    margin: 0;
+    padding: 0;
 }
 section#home{
     height: 100vh;
@@ -138,11 +145,34 @@ section#home3{
    
 }
 section#home3 div{
-    display: FLEX;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2PX;
+    padding-top: 20px; 
 }
+section#home3 #botones6{ 
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.seis{
+    display: flex;
+    background: #ffffff60;
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+    gap: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding-left: 25px;
+}
+.imagenUno img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
 
 
 

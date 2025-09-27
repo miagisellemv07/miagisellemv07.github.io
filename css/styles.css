@@ -23,7 +23,30 @@ button {
     box-shadow: 5px 5px #ffffff9d;
 
 }
+.boton-secundario{
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 10px;
+    width: 180px;
+    padding-bottom: 20px;
+    border: 1px solid #ffffff;
+    color: rgb(8, 8, 8);
+    background:rgba(255, 186, 222, 1);
+    box-shadow: 5px 5px #ffffff9d;
 
+}
+.boton-secundarioP{
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 10px;
+    width: 80px;
+    padding-bottom: 20px;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    background:purple;
+    box-shadow: 5px 5px #ffffff9d;
+
+}
 section {
     margin: 0;
     padding: 0;
@@ -332,9 +355,34 @@ section#home5 {
 }
 
  .nueve h6 {
-    margin-top:0px;
-    width: 100%;        /* ocupa todo el ancho del cuadro */
-    text-align: right;  /* alinea el texto a la derecha */
+    margin-top: -20px;
+    color: white;         
+    background: purple;   
+    border-radius: 50%;   
+    width: 32px;          
+    height: 32px;         
+    display: flex;        
+    align-items: center;  
+    justify-content: center;
+
+    /* 💡 Cambios clave para derecha */
+    margin-left: auto;    /* lo empuja a la derecha */
+    margin-right: 0;
+}
+
+ .nueve button h6 {
+    color: white;         
+    background: purple;   
+    border-radius: 50%;   
+    width: 32px;          
+    height: 32px;         
+    display: flex;        
+    align-items: center;  
+    justify-content: center;
+
+    /* 💡 Cambios clave para derecha */
+    margin-left: auto;    /* lo empuja a la derecha */
+    margin-right: 0;
 }
 
 section#home5 #botones9 {
@@ -346,5 +394,32 @@ section#home5 #botones9 {
 .nueve img {
     width: 200px;
     height: 100px;
+}
+
+.boton-terciario {
+    position: relative;
+    padding-right: 50px; /* deja espacio para el círculo */
+}
+
+.boton-terciario::after {
+    content: "→";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: purple;
+    color: white;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+section#home5 div #botonsitos{
+display: flex;
+gap: 20px;
 }
 

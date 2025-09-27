@@ -1,13 +1,15 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Playfair Display", serif;
 }
-button{
+
+button {
     border-radius: 5px;
     height: 40px;
     padding-top: 10px;
@@ -26,82 +28,93 @@ section {
     margin: 0;
     padding: 0;
 }
-section#home{
+
+section#home {
     height: 100vh;
     background: #d80eeb;
     background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
-padding-left: 50px;
-padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-section#home header{
+
+section#home header {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
-section#home header div h1{
-    color:white;
+
+section#home header div h1 {
+    color: white;
     font-family: "Cookie", cursive;
 
-}  
+}
+
 section#home header nav ul {
     display: flex;
     gap: 20px;
     margin-top: 10px;
 }
+
 section#home header nav ul li {
     list-style: none;
 }
+
 section#home header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
-section#home #content{
+
+section#home #content {
     display: flex;
     color: #ffffff;
 }
-section#home #content div{
-flex:1;
+
+section#home #content div {
+    flex: 1;
 }
 
-section#home #content h2{
-font-size: 4rem;
-color:#ffffff;
-margin-top: 20px;
+section#home #content h2 {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-top: 20px;
 }
 
-section#home #content #botones{
-    padding-top:20px;
+section#home #content #botones {
+    padding-top: 20px;
     gap: 20px;
     display: flex;
- }
-
-p{
-    padding-top:20px;
 }
-section#home #content #imagen{
+
+p {
+    padding-top: 20px;
+}
+
+section#home #content #imagen {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imagen img{
+.imagen img {
     border-radius: 100%;
     width: 500px;
     height: 500px;
-    
+
 }
-section#home  #imagen2{
+
+section#home #imagen2 {
     align-items: center;
-    display:flex;
+    display: flex;
 }
-section#home #imagen2 img{
+
+section#home #imagen2 img {
     border-radius: 100%;
     width: 50px;
     height: 50px;
 }
 
-section#home2{
+section#home2 {
     display: flex;
     height: 100vh;
     background: #d80eeb;
@@ -112,11 +125,13 @@ section#home2{
     align-items: center;
     gap: 200px;
 }
-#botones{ 
+
+#botones {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.cuatro{
+
+.cuatro {
     display: flex;
     background: #ffffff60;
     height: 40px;
@@ -127,52 +142,209 @@ section#home2{
     border-radius: 50px;
     padding-left: 25px;
 }
-.cuatro h4{
+
+.cuatro h4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 section#home2 div div button {
     margin-top: 30px;
 }
-section#home3{
+
+section#home3 {
     height: 100vh;
     background: #d80eeb;
     background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
     padding-left: 50px;
     padding-right: 50px;
-    
-   
+
+
 }
-section#home3 div{
+
+section#home3 div {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px; 
+    padding-top: 20px;
 }
-section#home3 #botones6{ 
+
+section#home3 #botones6 {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 10px;
 }
-.seis{
-    display: flex;
-    background: #ffffff60;
-    height: 40px;
-    margin-top: 10px;
+
+.seis img {
     width: 200px;
-    gap: 30px;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-    padding-left: 25px;
-}
-.imagenUno img{
-    width: 100px;
     height: 100px;
 }
 
+.seis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #ffffff60;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* SECCION 4 */
+section#home4 {
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section#home4>div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+section#home4 #seccion4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: start;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Cada skill */
+section#home4 #seccion4 .SCuatro {
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 12px;
+    width: 100%;
+}
+
+/* Contenedor principal de la skill */
+section#home4 #seccion4 .SCuatro .estilo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+/* Circulo con imagen */
+section#home4 #seccion4 .SCuatro .estilo .circulo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid purple;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+section#home4 #seccion4 .SCuatro .estilo .circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Contenedor de texto y barra */
+section#home4 #seccion4 .SCuatro .estilo .detalle {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    /* texto izquierda, barra derecha */
+    align-items: center;
+}
+
+/* Título y porcentaje */
+section#home4 #seccion4 .SCuatro .estilo .detalle .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+section#home4 #seccion4 .SCuatro .estilo .detalle .texto h4,
+section#home4 #seccion4 .SCuatro .estilo .detalle .texto h6 {
+    margin: 0;
+}
+
+/* Contenedor de barra y flecha */
+section#home4 #seccion4 .SCuatro .estilo .detalle .barra-con-flecha {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Barra de progreso */
+section#home4 #seccion4 .SCuatro .estilo .detalle .barra-con-flecha .barra {
+    height: 20px;
+    width: 350px;
+    /* ancho barra */
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section#home4 #seccion4 .SCuatro .estilo .detalle .barra-con-flecha .barra .progreso {
+    height: 100%;
+    background: purple;
+    border-radius: 10px 0 0 10px;
+}
+
+section#home4 #seccion4 .SCuatro .estilo .detalle .barra-con-flecha .barra .progreso h6 {
+    color: white;
+    position: absolute;
+    right: 200px;
+}
+
+/* Flecha al final */
+section#home4 #seccion4 .SCuatro .estilo .detalle .barra-con-flecha .flecha {
+    font-size: 1.2rem;
+    color: purple;
+}
 
 
+section#home5 {
+        
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+    display: flex;             /* activa flexbox */
+    flex-direction: column;    /* organiza hijos verticalmente */
+    justify-content: center;   /* centra verticalmente */
+    align-items: center;       /* centra horizontalmente */
+    gap: 20px;                 /* espacio entre elementos */
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;        /* centra el texto dentro de los hijos */
+}
 
+.nueve{
+    position: relative;
+}
 
+ .nueve h4 {
+    width: 100%;        /* ocupa todo el ancho del cuadro */
+    text-align: left;  /* alinea el texto a la derecha */
+}
 
+ .nueve h6 {
+    margin-top:0px;
+    width: 100%;        /* ocupa todo el ancho del cuadro */
+    text-align: right;  /* alinea el texto a la derecha */
+}
+
+section#home5 #botones9 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 10px;
+}
+
+.nueve img {
+    width: 200px;
+    height: 100px;
+}
 

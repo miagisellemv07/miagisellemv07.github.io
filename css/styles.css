@@ -421,5 +421,126 @@ section#home5 #botones9 {
 section#home5 div #botonsitos{
 display: flex;
 gap: 20px;
+}section#home6 {    
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 50px;
 }
 
+section#home6 > div {
+    text-align: center; 
+}
+
+/* Contenedor de los tres cuadros */
+.contenedor-individuales {
+    display: flex;
+    justify-content: center; /* centra todos los cuadros horizontalmente */
+    align-items: flex-start; /* alinea por arriba */
+    gap: 20px;               /* espacio entre cuadros */
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Cuadro individual */
+.individual {
+    display: flex;
+    flex-direction: row;  
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.6); /* opacidad central */
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 15px;
+    gap: 20px;
+    text-align: left;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+/* Cuadros laterales desvanecidos */
+.individual.desvanecido {
+    opacity: 0.3;
+    transform: scale(0.9);
+    filter: blur(1px);
+}
+
+/* Imagen dentro del cuadro */
+.individual img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Texto dentro del cuadro */
+.individual .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Estrellitas */
+.individual .texto .estrellas {
+    color: gold;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+/* Reduce márgenes de los textos */
+.individual .texto h4,
+.individual .texto h5,
+.individual .texto p {
+    margin: 2px 0;
+    padding: 0;
+}
+
+/* Centrar los títulos principales */
+.mas {
+    text-align: center;
+    margin-bottom: 20px;
+}#home6-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.contenedor-pequenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+/* Imagenes pequeñas */
+.pequeno {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.pequeno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Central */
+.pequeno.central {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+/* Desvanecidos progresivos */
+.pequeno.desvanecido-1 { opacity: 0.7; transform: scale(0.9); filter: blur(0.5px); }
+.pequeno.desvanecido-2 { opacity: 0.5; transform: scale(0.85); filter: blur(1px); }
+.pequeno.desvanecido-3 { opacity: 0.35; transform: scale(0.8); filter: blur(1.5px); }
+.pequeno.desvanecido-4 { opacity: 0.2; transform: scale(0.75); filter: blur(2px); }

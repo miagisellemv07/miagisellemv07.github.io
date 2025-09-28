@@ -23,7 +23,8 @@ button {
     box-shadow: 5px 5px #ffffff9d;
 
 }
-.boton-secundario{
+
+.boton-secundario {
     border-radius: 5px;
     height: 30px;
     padding-top: 10px;
@@ -31,11 +32,12 @@ button {
     padding-bottom: 20px;
     border: 1px solid #ffffff;
     color: rgb(8, 8, 8);
-    background:rgba(255, 186, 222, 1);
+    background: rgba(255, 186, 222, 1);
     box-shadow: 5px 5px #ffffff9d;
 
 }
-.boton-secundarioP{
+
+.boton-secundarioP {
     border-radius: 5px;
     height: 30px;
     padding-top: 10px;
@@ -43,10 +45,11 @@ button {
     padding-bottom: 20px;
     border: 1px solid #ffffff;
     color: rgb(255, 255, 255);
-    background:purple;
+    background: purple;
     box-shadow: 5px 5px #ffffff9d;
 
 }
+
 section {
     margin: 0;
     padding: 0;
@@ -332,56 +335,66 @@ section#home4 #seccion4 .SCuatro .estilo .detalle .barra-con-flecha .flecha {
 
 
 section#home5 {
-        
+
     height: 100vh;
     background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
-    display: flex;             /* activa flexbox */
-    flex-direction: column;    /* organiza hijos verticalmente */
-    justify-content: center;   /* centra verticalmente */
-    align-items: center;       /* centra horizontalmente */
-    gap: 20px;                 /* espacio entre elementos */
+    display: flex;
+    /* activa flexbox */
+    flex-direction: column;
+    /* organiza hijos verticalmente */
+    justify-content: center;
+    /* centra verticalmente */
+    align-items: center;
+    /* centra horizontalmente */
+    gap: 20px;
+    /* espacio entre elementos */
     padding-left: 50px;
     padding-right: 50px;
-    text-align: center;        /* centra el texto dentro de los hijos */
+    text-align: center;
+    /* centra el texto dentro de los hijos */
 }
 
-.nueve{
+.nueve {
     position: relative;
 }
 
- .nueve h4 {
-    width: 100%;        /* ocupa todo el ancho del cuadro */
-    text-align: left;  /* alinea el texto a la derecha */
+.nueve h4 {
+    width: 100%;
+    /* ocupa todo el ancho del cuadro */
+    text-align: left;
+    /* alinea el texto a la derecha */
 }
 
- .nueve h6 {
+.nueve h6 {
     margin-top: -20px;
-    color: white;         
-    background: purple;   
-    border-radius: 50%;   
-    width: 32px;          
-    height: 32px;         
-    display: flex;        
-    align-items: center;  
+    color: white;
+    background: purple;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
     /* 💡 Cambios clave para derecha */
-    margin-left: auto;    /* lo empuja a la derecha */
+    margin-left: auto;
+    /* lo empuja a la derecha */
     margin-right: 0;
 }
 
- .nueve button h6 {
-    color: white;         
-    background: purple;   
-    border-radius: 50%;   
-    width: 32px;          
-    height: 32px;         
-    display: flex;        
-    align-items: center;  
+.nueve button h6 {
+    color: white;
+    background: purple;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
     /* 💡 Cambios clave para derecha */
-    margin-left: auto;    /* lo empuja a la derecha */
+    margin-left: auto;
+    /* lo empuja a la derecha */
     margin-right: 0;
 }
 
@@ -398,7 +411,8 @@ section#home5 #botones9 {
 
 .boton-terciario {
     position: relative;
-    padding-right: 50px; /* deja espacio para el círculo */
+    padding-right: 50px;
+    /* deja espacio para el círculo */
 }
 
 .boton-terciario::after {
@@ -418,10 +432,12 @@ section#home5 #botones9 {
     font-size: 1rem;
 }
 
-section#home5 div #botonsitos{
-display: flex;
-gap: 20px;
-}section#home6 {    
+section#home5 div #botonsitos {
+    display: flex;
+    gap: 20px;
+}
+
+section#home6 {
     height: 100vh;
     background: linear-gradient(180deg, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 100%);
     display: flex;
@@ -431,26 +447,25 @@ gap: 20px;
     padding: 0 50px;
 }
 
-section#home6 > div {
-    text-align: center; 
+section#home6>div {
+    text-align: center;
 }
 
-/* Contenedor de los tres cuadros */
+
 .contenedor-individuales {
     display: flex;
-    justify-content: center; /* centra todos los cuadros horizontalmente */
-    align-items: flex-start; /* alinea por arriba */
-    gap: 20px;               /* espacio entre cuadros */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
     width: 100%;
     margin-top: 20px;
 }
 
-/* Cuadro individual */
 .individual {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: flex-start;
-    background: rgba(255, 255, 255, 0.6); /* opacidad central */
+    background: rgba(255, 255, 255, 0.6);
     border: 1px solid #ffffff;
     border-radius: 50px;
     padding: 15px;
@@ -460,14 +475,12 @@ section#home6 > div {
     transition: all 0.3s ease;
 }
 
-/* Cuadros laterales desvanecidos */
 .individual.desvanecido {
     opacity: 0.3;
     transform: scale(0.9);
     filter: blur(1px);
 }
 
-/* Imagen dentro del cuadro */
 .individual img {
     width: 120px;
     height: 120px;
@@ -475,21 +488,18 @@ section#home6 > div {
     object-fit: cover;
 }
 
-/* Texto dentro del cuadro */
 .individual .texto {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-/* Estrellitas */
 .individual .texto .estrellas {
     color: gold;
     font-size: 1rem;
     margin-bottom: 4px;
 }
 
-/* Reduce márgenes de los textos */
 .individual .texto h4,
 .individual .texto h5,
 .individual .texto p {
@@ -497,11 +507,12 @@ section#home6 > div {
     padding: 0;
 }
 
-/* Centrar los títulos principales */
 .mas {
     text-align: center;
     margin-bottom: 20px;
-}#home6-bottom {
+}
+
+#home6-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -517,7 +528,6 @@ section#home6 > div {
     width: 100%;
 }
 
-/* Imagenes pequeñas */
 .pequeno {
     width: 80px;
     height: 80px;
@@ -532,15 +542,303 @@ section#home6 > div {
     object-fit: cover;
 }
 
-/* Central */
 .pequeno.central {
     width: 100px;
     height: 100px;
     opacity: 1;
 }
 
-/* Desvanecidos progresivos */
-.pequeno.desvanecido-1 { opacity: 0.7; transform: scale(0.9); filter: blur(0.5px); }
-.pequeno.desvanecido-2 { opacity: 0.5; transform: scale(0.85); filter: blur(1px); }
-.pequeno.desvanecido-3 { opacity: 0.35; transform: scale(0.8); filter: blur(1.5px); }
-.pequeno.desvanecido-4 { opacity: 0.2; transform: scale(0.75); filter: blur(2px); }
+.pequeno.desvanecido-1 {
+    opacity: 0.7;
+    transform: scale(0.9);
+    filter: blur(0.5px);
+}
+
+.pequeno.desvanecido-2 {
+    opacity: 0.5;
+    transform: scale(0.85);
+    filter: blur(1px);
+}
+
+.pequeno.desvanecido-3 {
+    opacity: 0.35;
+    transform: scale(0.8);
+    filter: blur(1.5px);
+}
+
+.pequeno.desvanecido-4 {
+    opacity: 0.2;
+    transform: scale(0.75);
+    filter: blur(2px);
+}
+
+section#contacto {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 50px;
+    background:
+        linear-gradient(to bottom, rgba(216, 14, 235, 1) 0%, rgba(255, 186, 222, 1) 50%, rgba(255, 186, 222, 0) 50%),
+        url('/img/casa.jpeg') no-repeat bottom center;
+    background-size: cover;
+    color: #fff;
+}
+
+
+section#contacto .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#contacto .info {
+    margin-top: 0px;
+    padding-top: 0;
+    align-self: flex-start;
+}
+
+#contacto .formulario {
+    align-self: flex-start;
+    flex: 1 1 350px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+section#contacto .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+#contacto h3 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+#contacto p {
+    margin-bottom: 20px;
+}
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contacto li {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.inline-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #d80eeb;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.inline-btn:hover {
+    background: purple;
+    transform: scale(1.1);
+}
+
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+}
+
+#contacto button {
+    width: 100%;
+    background: purple;
+    border: none;
+    padding: 14px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background: #b800b8;
+}
+
+#noticias {
+    width: 100%;
+    padding: 60px 50px;
+    background: linear-gradient(180deg, #d80eeb 0%, #ffbade 100%);
+    color: #fff;
+}
+
+#noticias .titulo {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+#noticias .card {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 70px;
+    margin-bottom: 20px;
+}
+
+#noticias .card h2 {
+    color: purple;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    min-width: 80px;
+}
+
+#noticias .card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    flex: 1;
+}
+
+#noticias .card-content .fecha {
+    color: white;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+#noticias .card-content a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#noticias .card-content p {
+    color: #fff;
+    margin: 0;
+    flex: 1;
+}
+
+#noticias .card-content .flecha {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+section#habib-portfolio {
+    position: relative;
+    width: 100%;
+    padding: 60px 50px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('/img/closet.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#habib-portfolio .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+#habib-portfolio .info {
+    flex: 1 1 350px;
+}
+
+#habib-portfolio .info .perfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+}
+
+#habib-portfolio h4 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#habib-portfolio h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#habib-portfolio p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#habib-portfolio .since {
+    font-size: 3rem;
+    font-weight: bold;
+    opacity: 0.2;
+}
+
+#habib-portfolio .links {
+    display: flex;
+    gap: 40px;
+    flex: 1 1 350px;
+    flex-wrap: wrap;
+    margin-left: 450px;
+}
+
+#habib-portfolio .links h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#habib-portfolio .links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habib-portfolio .links ul li {
+    margin-bottom: 10px;
+}
+
+#habib-portfolio .links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#habib-portfolio .links ul li a:hover {
+    color: #ff9ce0;
+}

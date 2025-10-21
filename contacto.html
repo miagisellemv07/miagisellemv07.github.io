@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANIMATOON — Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mediaquery.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header>
+    <div id="imagenL">
+      <img src="img/LOGOLISTO.png" alt="Logo ANIMATOON" />
+      <h1>ANIMATOON</h1>
+    </div>
+
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="section-head">
+        <h2>Contacto</h2>
+        <p class="sub">¡Escríbenos para tu pedido!</p>
+      </div>
+
+      <div class="contacto">
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:hola@animatoon.com">hola@animatoon.com</a></li>
+          <li><strong>Teléfono:</strong> <a href="tel:+5215555555555">+52 1 55 5555 5555</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="y"></span> ANIMATOON</p>
+    <a href="index.html" class="to-top">Volver al inicio</a>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

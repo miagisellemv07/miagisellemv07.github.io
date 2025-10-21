@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANIMATOON — Servicios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mediaquery.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header>
+    <div id="imagenL">
+      <img src="img/LOGOLISTO.png" alt="Logo ANIMATOON" />
+      <h1>ANIMATOON</h1>
+    </div>
+
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html" aria-current="page">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="section-head">
+        <h2>Servicios</h2>
+        <p class="sub">Eventos, talleres y personalización.</p>
+      </div>
+
+      <div class="serv-grid">
+        <article class="serv">
+          <h3>Talleres infantiles</h3>
+          <p>Sesiones guiadas para que niñas y niños creen su propio lienzo.</p>
+        </article>
+        <article class="serv">
+          <h3>Eventos y fiestas</h3>
+          <p>Kits de pintura y dinámicas para cumpleaños o escuelas.</p>
+        </article>
+        <article class="serv">
+          <h3>Personalización</h3>
+          <p>Diseños a medida según el tema favorito de tu peque.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="y"></span> ANIMATOON</p>
+    <a href="index.html" class="to-top">Volver al inicio</a>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

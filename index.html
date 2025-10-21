@@ -1,513 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANIMATOON — Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mediaquery.css" />
 </head>
 
 <body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header>
+    <div id="imagenL">
+      <img src="img/LOGOLISTO.png" alt="Logo ANIMATOON" />
+      <h1>ANIMATOON</h1>
+    </div>
+
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Principal</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
     <section id="home">
-        <header>
+      <div class="manchita" style="--color:#f7a25e; --top:50px; --left:60px;"></div>
+      <div class="manchita" style="--color:#FFE680; --top:120px; --left:180px;"></div>
+      <div class="manchita" style="--color:#cc94ec; --top:50px; --left:380px;"></div>
+      <div class="manchita" style="--color:#75f6ff; --top:180px; --left:520px;"></div>
+      <div class="manchita" style="--color:#cc94ec; --bottom:50px; --left:60px;"></div>
+      <div class="manchita" style="--color:#75f6ff; --bottom:120px; --left:180px;"></div>
+      <div class="manchita" style="--color:#FFE680; --bottom:50px; --left:380px;"></div>
+      <div class="manchita" style="--color:#f7a25e; --bottom:180px; --left:520px;"></div>
 
-            <div id="imagen2">
-                <img src="/img/perfil.png" alt="">
-                <h1>Mia Minjarez</h1>
-            </div>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https//google.com"></a>
-                    </li>
-                    <li> <a href="#">About</a></li>
-                    <li> <a href="#">Services</a></li>
-                    <li> <a href="#">Portfolio</a></li>
-                    <li> <a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div>
-                <button>
-                    Lets Talk
-                </button>
-            </div>
-        </header>
-        <!--columna izquierda-->
-        <div id="content">
-            <div>
-                <h2>
-                    Holi soy Mia -Estudiante
-                </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni repellat aspernatur, blanditiis est
-                    hic dolores quis ea recusandae adipisci incidunt, quas corporis, assumenda sint eos cumque ex
-                    accusamus voluptatem nihil.
-                </p>
-                <div id="botones">
-                    <button>
-                        Ver mas
-                    </button><button>
-                        Portafolio
-                    </button>
-                </div>
-
-            </div>
-            <!--columna derecha-->
-            <div class="imagen">
-                <img src="/img/perfil.png" alt="">
-            </div>
-        </div>
-    </section>
-    <!--SECCION 2-->
-    <section id="home2">
-        <!--columna derecha-->
-        <div class="imagen">
-            <img src="/img/perfil.png" alt="">
-        </div>
-        <!--columna izquierda-->
+      <div id="content">
         <div>
-            <div>
-                <h2>
-                    Holi soy Mia -Estudiante
-                </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni repellat aspernatur, blanditiis est
-                    hic dolores quis ea recusandae adipisci incidunt, quas corporis, assumenda sint eos cumque ex
-                    accusamus voluptatem nihil.
-                </p>
-                <div id="botones">
-                    <div class="cuatro">
-                        <h4>
-                            Nivel de ingles
-                        </h4>
-                        <h4>
-                            45%
-                        </h4>
-                    </div>
-                    <div class="cuatro">
-                        <h4>
-                            Nivel de ingles
-                        </h4>
-                        <h4>
-                            45%
-                        </h4>
-                    </div>
-                    <div class="cuatro">
-                        <h4>
-                            Nivel de ingles
-                        </h4>
-                        <h4>
-                            45%
-                        </h4>
-                    </div>
-                    <div class="cuatro">
-                        <h4>
-                            Nivel de ingles
-                        </h4>
-                        <h4>
-                            45%
-                        </h4>
-                    </div>
-                </div>
+          <h2>ANIMATOON</h2>
+          <p id="p1">La sonrisa de los peques</p>
+          <p>Disfruta de una bonita tarde con las personas que amas, libera tu creatividad y convive.</p>
+          <div id="botones">
+            <a href="productos.html" class="btn-comprar">Productos</a>
+          </div>
+        </div>
 
-                <button>
-                    Ver mas
-                </button>
-            </div>
-
+        <div id="imagen">
+          <img src="img/IMAGENunoo.png" alt="Niña pintando un lienzo" width="500" height="500" />
+        </div>
+      </div>
     </section>
+  </main>
 
-    <!--SECCION 3-->
+  <footer class="site-footer">
+    <p>© <span id="y"></span> ANIMATOON</p>
+    <a href="#home" class="to-top">Volver arriba</a>
+  </footer>
 
-    <section id="home3">
-        <DIV>
-            <H1>SERVICES</H1>
-        </DIV>
-        <DIV>
-            <H4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quos, repellat, repellendus iste animi
-                distinctio illum officiis accusamus vel amet exercitationem libero alias architecto molestiae voluptates
-                nemo corrupti consequuntur provident!</H4>
-        </DIV>
-        <div id="botones6">
-            <div class="seis"><img src="/img/casa.jpeg" alt="">
-                <h4>DREAM HOUSE</h4>
-                <h6>La casa dream house de barbie, toda rosita, toda bonita.</h6>
-            </div>
-            <div class="seis"><img src="/img/closet.jpeg" alt="">
-                <h4>CLOSET</h4>
-                <h6>Barbie tiene millones de prendas para cada ocasión.</h6>
-            </div>
-            <div class="seis"><img src="/img/cocina.jpeg" alt="">
-                <h4>COCINA</h4>
-                <h6>Barbie prepara millones y millones de postres.</h6>
-            </div>
-            <div class="seis"><img src="/img/escaleras.jpg" alt="">
-                <h4>ESCALERAS</h4>
-                <h6>Las infinitas escaleras de Barbie.</h6>
-            </div>
-            <div class="seis"><img src="/img/sala.jpeg" alt="">
-                <h4>SALA</h4>
-                <h6>La bonita sala de la dream house de Barbie.</h6>
-            </div>
-            <div class="seis"><img src="/img/piscina.jpg" alt="">
-                <h4>PISCINA</h4>
-                <h6>La enorme piscina con la silueta de la cara de Barbie.</h6>
-            </div>
-        </div>
-    </section>
-    <!--SECCION 4-->
-    <section id="home4">
-        <DIV>
-            <H1>TOOLS & SKILLS</H1>
-        </DIV>
-
-        <div id="seccion4">
-
-            <div class="SCuatro">
-                <div class="estilo">
-                    <div class="circulo">
-                        <img src="/img/casa.jpeg" alt="">
-                    </div>
-                    <div class="detalle">
-                        <div class="texto">
-                            <h4>DREAM HOUSE</h4>
-                            <h6>70%</h6>
-                        </div>
-                        <div class="barra-con-flecha">
-                            <div class="barra">
-                                <div class="progreso" style="width:70%">
-                                    <h6>34.2/42.5</h6>
-                                </div>
-                            </div>
-                            <div class="flecha">→</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="SCuatro">
-                <div class="estilo">
-                    <div class="circulo">
-                        <img src="/img/casa.jpeg" alt="">
-                    </div>
-                    <div class="detalle">
-                        <div class="texto">
-                            <h4>DREAM HOUSE</h4>
-                            <h6>70%</h6>
-                        </div>
-                        <div class="barra-con-flecha">
-                            <div class="barra">
-                                <div class="progreso" style="width:70%">
-                                    <h6>34.2/42.5</h6>
-                                </div>
-                            </div>
-                            <div class="flecha">→</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="SCuatro">
-                <div class="estilo">
-                    <div class="circulo">
-                        <img src="/img/casa.jpeg" alt="">
-                    </div>
-                    <div class="detalle">
-                        <div class="texto">
-                            <h4>DREAM HOUSE</h4>
-                            <h6>70%</h6>
-                        </div>
-                        <div class="barra-con-flecha">
-                            <div class="barra">
-                                <div class="progreso" style="width:70%">
-                                    <h6>34.2/42.5</h6>
-                                </div>
-                            </div>
-                            <div class="flecha">→</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="SCuatro">
-                <div class="estilo">
-                    <div class="circulo">
-                        <img src="/img/casa.jpeg" alt="">
-                    </div>
-                    <div class="detalle">
-                        <div class="texto">
-                            <h4>DREAM HOUSE</h4>
-                            <h6>70%</h6>
-                        </div>
-                        <div class="barra-con-flecha">
-                            <div class="barra">
-                                <div class="progreso" style="width:70%">
-                                    <h6>34.2/42.5</h6>
-                                </div>
-                            </div>
-                            <div class="flecha">→</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-    <!--SECCION 5-->
-
-    <section id="home5">
-        <DIV>
-            <H3>My portfolio</H3>
-            <H2>Digital Product ShowCases</H2>
-            <div id="botonsitos">
-                <button class="boton-secundarioP">
-                    All
-                </button>
-                <button class="boton-secundario">
-                    Landing Pages
-                </button>
-                <button class="boton-secundario">
-                    Moball App
-                </button>
-                <button class="boton-secundario">
-                    Dshboard
-                </button>
-            </div>
-        </DIV>
-        <div id="botones9">
-            <div class="nueve"><img src="/img/casa.jpeg" alt="">
-                <h4>DREAM HOUSE</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/closet.jpeg" alt="">
-                <h4>CLOSET</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/cocina.jpeg" alt="">
-                <h4>COCINA</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/escaleras.jpg" alt="">
-                <h4>ESCALERAS</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/sala.jpeg" alt="">
-                <h4>SALA</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/piscina.jpg" alt="">
-                <h4>PISCINA</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/escaleras.jpg" alt="">
-                <h4>ESCALERAS</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/sala.jpeg" alt="">
-                <h4>SALA</h4>
-                <h6>→</h6>
-
-            </div>
-            <div class="nueve"><img src="/img/piscina.jpg" alt="">
-                <h4>PISCINA</h4>
-                <h6>→</h6>
-
-            </div>
-        </div>
-        <button class="boton-terciario">
-            View
-        </button>
-    </section>
-    <!--SECCION 6-->
-    <section id="home6">
-        <div class="titulos">
-            <h1>Digital Product ShowCases</h1>
-            <h3>My portfolio</h3>
-        </div>
-
-        <div class="contenedor-individuales">
-
-            <div class="individual desvanecido lateral-izq">
-                <img src="/img/casa.jpeg" alt="">
-                <div class="texto">
-                    <div class="estrellas">★ ★ ★ ★ ★</div>
-                    <h4>DREAM HOUSE</h4>
-                    <p>La casa dream house de barbie, toda rosita, toda bonita.</p>
-                    <h6>DREAM HOUSE</h6>
-                    <p>La casa dream house</p>
-                </div>
-            </div>
-
-            <div class="individual central">
-                <img src="/img/casa.jpeg" alt="">
-                <div class="texto">
-                    <div class="estrellas">★ ★ ★ ★ ★</div>
-                    <h4>DREAM HOUSE</h4>
-                    <p>La casa dream house de barbie, toda rosita, toda bonita.</p>
-                    <h6>DREAM HOUSE</h6>
-                    <p>La casa dream house</p>
-                </div>
-            </div>
-
-            <div class="individual desvanecido lateral-der">
-                <img src="/img/casa.jpeg" alt="">
-                <div class="texto">
-                    <div class="estrellas">★ ★ ★ ★ ★</div>
-                    <h4>DREAM HOUSE</h4>
-                    <p>La casa dream house de barbie, toda rosita, toda bonita.</p>
-                    <h6>DREAM HOUSE</h6>
-                    <p>La casa dream house</p>
-                </div>
-            </div>
-        </div>
-        <div class="mas">
-        </div>
-        <div class="contenedor-pequenos">
-            <div class="pequeno desvanecido-4"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-3"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-2"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-1"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno central"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-1"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-2"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-3"><img src="/img/casa.jpeg" alt=""></div>
-            <div class="pequeno desvanecido-4"><img src="/img/casa.jpeg" alt=""></div>
-        </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- CONTACTO / SECCION 7 -->
-    <section id="contacto">
-        <div class="overlay"></div>
-
-        <div class="container">
-            <div class="info">
-                <h3>Contact Me</h3>
-                <p>Estoy abierta a nuevos proyectos y colaboraciones.</p>
-                <ul>
-                    <li>
-                        <a href="tel:+521234567890" class="inline-btn">📞</a>
-                        <i class="fa fa-phone"></i> +52 123 456 7890
-                    </li>
-                    <li>
-                        <a href="https://goo.gl/maps/XYZ" target="_blank" class="inline-btn">📍</a>
-                        <i class="fa fa-map-marker-alt"></i> Ciudad de México
-                    </li>
-                    <li>
-                        <a href="mailto:correo@example.com" class="inline-btn">✉️</a>
-                        <i class="fa fa-envelope"></i> correo@example.com
-                    </li>
-                </ul>
-            </div>
-
-            <div class="formulario">
-                <h3>Get in Touch</h3>
-                <form>
-                    <input type="text" placeholder="Your name" required>
-                    <input type="tel" placeholder="Phone number" required>
-                    <input type="email" placeholder="Your email" required>
-                    <textarea placeholder="Message" required></textarea>
-                    <button>Let’s Connect</button>
-                </form>
-            </div>
-        </div>
-
-
-    </section>
-
-    <!-- NOTICIAS -->
-    <section id="noticias">
-        <div class="container">
-            <h3 class="titulo">Latest News</h3>
-            <div class="cards">
-
-                <div class="card">
-                    <h2>01<br><span>May 2025</span></h2>
-                    <div class="card-content">
-                        <span class="fecha">01 May 2025</span>
-                        <a href="#">Read More</a>
-                        <p>Crafting intuitive user interfaces</p>
-                        <span class="flecha">→</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h2>03<br><span>May 2025</span></h2>
-                    <div class="card-content">
-                        <span class="fecha">03 May 2025</span>
-                        <a href="#">Read More</a>
-                        <p>My Favorite Figma Plugins</p>
-                        <span class="flecha">→</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h2>06<br><span>May 2025</span></h2>
-                    <div class="card-content">
-                        <span class="fecha">06 May 2025</span>
-                        <a href="#">Read More</a>
-                        <p>5 UX Mistakes to Avoid</p>
-                        <span class="flecha">→</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- SECCIÓN SOBRE HABIB / PORTAFOLIO -->
-    <section id="habib-portfolio">
-        <div class="container">
-            <div class="info">
-                <img src="/img/perfil.png" alt="Md Habib" class="perfil">
-                <h4>Md Habib Portfolio</h4>
-                <h3>I am Habib, your best friend in UI/UX design.</h3>
-                <p>Thanks for visiting! Let's stay connected and create something amazing together.</p>
-                <span class="since">Since 2025</span>
-            </div>
-
-            <div class="links">
-                <div class="quick-links">
-                    <h4>Quick links</h4>
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="social-media">
-                    <h4>Our social media</h4>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">YouTube</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    </section>
-
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>

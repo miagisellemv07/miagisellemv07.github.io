@@ -1,0 +1,123 @@
+/* =========================================
+   GLOBAL / BASE (todas las páginas)
+========================================= */
+html { scroll-behavior: smooth; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+body { font-family: "Playfair Display", serif; line-height: 1.45; color: #0b0b0b; }
+
+/* === Header (todas las páginas) === */
+header{
+  background-color:#FF9FCF;width:100%;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:20px 50px;position:sticky;top:0;z-index:1000;
+}
+#imagenL{display:flex;align-items:center;gap:10px;}
+#imagenL img{width:50px;height:50px;}
+header h1{color:#fff;font-family:"Cookie",cursive;font-size:2rem;}
+header nav ul{display:flex;list-style:none;gap:20px;}
+header nav a{color:#fff;text-decoration:none;font-size:1.2rem;}
+
+/* === Accesibilidad (todas las páginas) === */
+.skip{position:absolute;left:-9999px;top:auto;}
+.skip:focus{left:16px;top:16px;background:#000;color:#fff;padding:8px 10px;border-radius:8px;z-index:999;}
+
+/* === Footer (todas las páginas) === */
+.site-footer{background:#560061;color:#fff;text-align:center;padding:24px;}
+.to-top{color:#fff;}
+
+
+/* =========================================
+   INICIO / HOME (index.html)
+========================================= */
+section#home{
+  position:relative;min-height:100vh;background-color:#9CCFFF;
+  padding:100px 50px;display:flex;align-items:center;overflow:hidden;
+}
+#content{display:flex;justify-content:space-between;align-items:center;width:100%;z-index:2;}
+/* Manchitas decorativas (solo home) */
+.manchita{
+  position:absolute;background:var(--color);
+  width:var(--size,100px);height:var(--size,100px);
+  top:var(--top);left:var(--left);right:var(--right);bottom:var(--bottom);
+  border-radius:60% 40% 50% 70% / 60% 50% 70% 40%;
+  animation:flotar 6s ease-in-out infinite;opacity:.9;z-index:1;
+}
+@keyframes flotar{
+  0%{transform:translate(0,0) scale(1)}
+  50%{transform:translate(15px,-10px) scale(1.05)}
+  100%{transform:translate(0,0) scale(1)}
+}
+#content h2{font-size:clamp(2.2rem,4vw,4rem);color:#fff;margin-bottom:20px;}
+#p1{font-size:clamp(1.2rem,2.6vw,2rem);color:rgba(225,103,230,0.952);}
+button,.btn-comprar{
+  border-radius:50px;height:40px;min-width:150px;padding:0 16px;
+  border:1px solid #ffffff;color:#fff;
+  background:linear-gradient(180deg, rgba(255,103,230,.952) 0%, rgba(255,186,222,1) 100%);
+  text-transform:uppercase;box-shadow:5px 5px #ffffff9d;cursor:pointer;
+  display:inline-block;line-height:40px;text-align:center;text-decoration:none;
+  font-weight:700;letter-spacing:.5px;transition:transform .2s ease;
+}
+#botones{padding-top:20px;}
+#botones:hover .btn-comprar{transform:translateY(-1px);}
+#imagen img{width:500px;height:500px;}
+
+
+/* =========================================
+   PRODUCTOS (productos.html)
+========================================= */
+section#productos{
+  position:relative;min-height:100vh;background-color:#9CCFFF;
+  padding:60px 50px 80px;display:block;overflow:hidden;
+}
+#contenido{width:100%;text-align:center;margin-bottom:24px;}
+#contenido h2{
+  font-size:clamp(2.2rem,4vw,4rem);color:#fff;letter-spacing:2px;
+  text-shadow:0 3px 0 rgba(255,255,255,.25);margin:0;
+}
+#contenido .sub{color:#000000;margin-top:6px;}
+.productos-grid{
+  max-width:1200px;margin:0 auto;display:grid;
+  grid-template-columns:repeat(4, minmax(200px,1fr));gap:48px;align-items:start;
+}
+.producto{text-align:center;}
+.producto img{width:285px;height:285px;}
+.producto h3{font-size:1.05rem;font-weight:800;color:#0b0b0b;margin:6px 0;}
+.producto .meta{font-size:.9rem;color:#0b0b0b;opacity:.9;line-height:1.25rem;margin-bottom:10px;}
+
+
+/* =========================================
+   SERVICIOS (servicios.html)
+========================================= */
+.section{
+  background:#9CCFFF;min-height:100vh;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:60px 50px 80px;
+}
+.section-head{text-align:center;margin:0 auto 24px;}
+.section-head h2{font-size:clamp(2rem,4vw,3rem);color:#fff;}
+.section-head .sub{color:#000000;margin-top:6px;}
+.serv-grid{
+  max-width:1100px;margin:0 auto;display:grid;
+  grid-template-columns:repeat(3,1fr);gap:28px;
+}
+.serv{
+  background:#fff;border-radius:16px;padding:18px 20px;color:#0b0b0b;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+
+/* =========================================
+   CONTACTO (contacto.html)
+   (La página usa .section + .section-head + .contacto/.contact-list)
+========================================= */
+.contacto{
+  display:flex;justify-content:center;margin-top:8px;
+}
+.contact-list{
+  list-style:none;padding:0;margin:0;
+  display:grid;gap:12px;font-size:1.05rem;text-align:center;
+}
+.contact-list li{color:#0b0b0b;}
+.contact-list a{color:#FF0090;text-decoration:none;font-weight:700;}
+.contact-list a:hover{text-decoration:underline;}

@@ -4,9 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ANIMATOON — Productos</title>
+  <meta name="description" content="Elige entre lienzo mini, pequeño, mediano y grande. Precios, medidas y compra rápida.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/mediaquery.css" />
 </head>
@@ -15,7 +18,7 @@
 
   <header>
     <div id="imagenL">
-      <img src="img/LOGOLISTO.png" alt="Logo ANIMATOON" />
+      <img src="img/LOGOLISTO.webp" alt="Logo ANIMATOON" width="50" height="50" />
       <h1>ANIMATOON</h1>
     </div>
 
@@ -38,31 +41,39 @@
 
       <div class="productos-grid">
         <article class="producto">
-          <img src="img/L1.png" alt="Lienzo mini 15×15 cm" width="285" height="285">
+          <img src="img/L1.webp" alt="Lienzo mini 15×15 cm" width="285" height="285" loading="lazy" decoding="async">
           <h3>Lienzo mini</h3>
           <p class="meta">Medidas: 15×15cm<br>Precio: $40.56</p>
-          <a href="contacto.html" class="btn-comprar">Comprar</a>
+          <a href="mini.html" class="btn-comprar">Ver
+            <i class="fa-solid fa-eye fa-shake" style="color: #ffffff;"></i>
+          </a>
         </article>
 
         <article class="producto">
-          <img src="img/L2.png" alt="Lienzo pequeño 30×30 cm" width="285" height="285">
+          <img src="img/L2.webp" alt="Lienzo pequeño 30×30 cm" width="285" height="285" loading="lazy" decoding="async">
           <h3>Lienzo pequeño</h3>
           <p class="meta">Medidas: 30×30cm<br>Precio: $60.89</p>
-          <a href="contacto.html" class="btn-comprar">Comprar</a>
+          <a href="pequeño.html" class="btn-comprar">Ver
+            <i class="fa-solid fa-eye fa-shake" style="color: #ffffff;"></i>
+          </a>
         </article>
 
         <article class="producto">
-          <img src="img/L3.png" alt="Lienzo mediano 50×50 cm" width="285" height="285">
+          <img src="img/L3.webp" alt="Lienzo mediano 50×50 cm" width="285" height="285" loading="lazy" decoding="async">
           <h3>Lienzo mediano</h3>
           <p class="meta">Medidas: 50×50cm<br>Precio: $80.99</p>
-          <a href="contacto.html" class="btn-comprar">Comprar</a>
+          <a href="mediano.html" class="btn-comprar">Ver
+            <i class="fa-solid fa-eye fa-shake" style="color: #ffffff;"></i>
+          </a>
         </article>
 
         <article class="producto">
-          <img src="img/L4.png" alt="Lienzo grande 80×80 cm" width="285" height="285">
+          <img src="img/L4.webp" alt="Lienzo grande 80×80 cm" width="285" height="285" loading="lazy" decoding="async">
           <h3>Lienzo grande</h3>
           <p class="meta">Medidas: 80×80cm<br>Precio: $100.67</p>
-          <a href="contacto.html" class="btn-comprar">Comprar</a>
+          <a href="grande.html" class="btn-comprar">Ver
+            <i class="fa-solid fa-eye fa-shake" style="color: #ffffff;"></i>
+          </a>
         </article>
       </div>
     </section>
@@ -73,5 +84,8 @@
     <a href="index.html" class="to-top">Volver al inicio</a>
   </footer>
 
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

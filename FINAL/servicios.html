@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ANIMATOON — Servicios</title>
+  <meta name="description" content="Animación infantil, kits de pintura para fiestas y personalización de lienzos.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/mediaquery.css" />
@@ -15,7 +16,7 @@
 
   <header>
     <div id="imagenL">
-      <img src="img/LOGOLISTO.png" alt="Logo ANIMATOON" />
+      <img src="img/LOGOLISTO.webp" alt="Logo ANIMATOON" width="50" height="50"/>
       <h1>ANIMATOON</h1>
     </div>
 
@@ -33,22 +34,28 @@
     <section class="section">
       <div class="section-head">
         <h2>Servicios</h2>
-        <p class="sub">Eventos, talleres y personalización.</p>
+        <p class="sub">Eventos, animación y personalización.</p>
       </div>
 
       <div class="serv-grid">
         <article class="serv">
-          <h3>Talleres infantiles</h3>
-          <p>Sesiones guiadas para que niñas y niños creen su propio lienzo.</p>
+          <h3>Animación infantil</h3>
+          <img src="img/P1.webp" alt="Animación infantil en eventos" width="800" height="600" loading="lazy" decoding="async">
+          <p>Pintacaritas, juegos, premios y globoflexia para tus eventos.</p>
         </article>
         <article class="serv">
           <h3>Eventos y fiestas</h3>
-          <p>Kits de pintura y dinámicas para cumpleaños o escuelas.</p>
+          <img src="img/P2.webp" alt="Kits de pintura con lienzos para fiestas" width="800" height="600" loading="lazy" decoding="async">
+          <p>Kits de pintura con lienzos para cumpleaños o reuniones.</p>
         </article>
         <article class="serv">
           <h3>Personalización</h3>
-          <p>Diseños a medida según el tema favorito de tu peque.</p>
+          <img src="img/P3.webp" alt="Personalización de lienzos a medida" width="800" height="600" loading="lazy" decoding="async">
+          <p>Diseños a medida: elige el tema favorito para tu lienzo.</p>
         </article>
+        <p class="meta">Concreta tu compra por teléfono:
+          <a href="tel:+526361065874" class="btn-comprar">Ir</a>
+        </p>
       </div>
     </section>
   </main>
@@ -58,5 +65,8 @@
     <a href="index.html" class="to-top">Volver al inicio</a>
   </footer>
 
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
